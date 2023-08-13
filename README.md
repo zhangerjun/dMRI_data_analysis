@@ -1,4 +1,5 @@
-# Mini-Project 3: xxxx (change tittle later)
+# Mini-Project 5: Neonatal Brain Tissue Development Evaluation Using Diffusion MRI
+(An Introduction to Python-based Medical Image Analysis) (change tittle later)
 
 ## Introduction
 While we do dMRI analysis, registration is a necessary and important step. Normally, researchers treat dMRI images as the other type of MR images and do the registration. While DTITK used diffusion tensor information to do the registration and it takes advantage of diffusion tensor information. 
