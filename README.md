@@ -1,5 +1,7 @@
 # Mini-Project 5: Neonatal Brain Tissue Development Evaluation Using Diffusion MRI
-(An Introduction to Python-based Medical Image Analysis) (change tittle later)
+(An Introduction to Python-based Medical Image Analysis) (in progress...)
+
+Team: Sara Hernandez, Kylie Xu, Erjun Zhang (Mentor)
 
 ## Introduction
 While we do dMRI analysis, registration is a necessary and important step. Normally, researchers treat dMRI images as the other type of MR images and do the registration. While DTITK used diffusion tensor information to do the registration and it takes advantage of diffusion tensor information. 
@@ -84,4 +86,12 @@ Deliverables:
 
 *Acknowledgement*
 
-This work was completed in NeuroPoly in University De Montreal (POLY) and Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital. In the future, some small experiments will be added (expect by the end of Dec. 2022). 
+We wanted to acknowledge our mentor Erjun Zhang for helping us along the way and teaching us the basis of
+python coding and medical-imaging. This project would have been impossible to complete without his help. In addition,
+we wanted to thank our Dawson College supervisors, Dr. Hélène Nadeau and Dr. Sylvia Cox for giving us feedback on
+our project. And finally, we wanted to acknowledge Michelle Poulin, Dr. Benjamin De Leener and Dr. Lodygensky for
+helping us and taking care of us in the hospital during our internship.
+
+This work was completed in NeuroPoly in University De Montreal (POLY) and Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital. I would like to thanks CHU Saint Justine ...
+
+In the future, some small experiments will be added (expect by the end of Dec. 2023). 
