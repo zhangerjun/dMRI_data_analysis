@@ -36,8 +36,7 @@ All the experiments can be completed online using either Windows, Mac or Linux c
 * [Summary of the project](./documents/MiniProject_5_Summary_of_project.pdf): a brife discription of this project; We used this document for the mentorship project application;
 * [Final report](./documents/MiniProject_5_Report.pdf): including all details of this project;
 * [Project progress records](./documents/Progress_records_of_the_project.pdf): the every working day taskes were recorded for people, who want to reproduce the projects, to folow by themselves.
-* [Slides](./documents/MiniProject_5_Slides.pdf), [final presentation](./documents/MiniProject_5_Presentation_at_CHUSJ.mp4
-), [Abstract 1](./documents/MiniProject_5_abstract1.pdf), [Poster 1](./documents/MiniProject_5_poster1.pdf).
+* [Slides](./documents/MiniProject_5_Slides_at_CHUSJ.pdf), [final presentation](./documents/MiniProject_5_Presentation_at_CHUSJ.mp4), [Abstract 1](./documents/MiniProject_5_abstract1.pdf), [Poster 1](./documents/MiniProject_5_poster1.pdf).
 
 
 ## Conclusion
