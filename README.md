@@ -2,26 +2,44 @@
 
 Team: Sara Hernandez, Kylie Xu, and Erjun Zhang (Mentor)
 
-This mini-project was  completed by my two summer internship students, Kylie Xu and Sara Hernandez, at NeuroPoly in University De Montreal (POLY) and Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital in summer 2023 (from June 02, 2023 to August 15, 2023). It is part of the project *An Introduction to Python-based MRI Data Analysis*.
+This mini-project was  completed by Kylie Xu and Sara Hernandez and EJ Zhang (mentor), at NeuroPoly in University De Montreal (POLY) and Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital in summer 2023 (from June 02, 2023 to August 15, 2023). It is part of the project *An Introduction to Python-based MRI Data Analysis*.
 
 ## Introduction
-While we do dMRI analysis, registration is a necessary and important step. Normally, researchers treat dMRI images as the other type of MR images and do the registration. While DTITK used diffusion tensor information to do the registration and it takes advantage of diffusion tensor information. 
+Preterm infants are at a higher risk of developing neurological conditions. Diffusion weighted MRI (dMRI) is a type of magnetic resonance imaging based on the measurable Brownian motion of water to create contrast in the MRI image. As a noninvasive imaging method, it is useful image method to help researchers and medical workers to understanding brain tissue growth.
 
-As my knowledge, it is hard to find clear and complete steps to use it. Thus, this mini-project is trying to provide a easier way to use it (build the template, then do the registration), which could be interested by dMRI reserachers. Students can also use it as tutorial for excerise. 
+As my knowledge, little Python resources exist for beginners to access diffusivity in brain tissues. Thus, we developed this project to use Python code to analysis (evaluation) brain tissue development, which could be interested by dMRI reserachers. Students can also use it as tutorial for excerise. 
 
-## Goal
-* Build the tempalte by using $71$ dHCP baby dti data;
-* Registered these $71$ other babies to the template;
-* Transfer the registration to the subject space.
+## Goal and Hypothesis
+### Goal
+* Learn Python coding;
+* Write DTI reconstruction code with Python;
+* UNderstanding the brain tissue development in infants;
+* Democratize the knowledge
+### Hypothesis
+Baby development could be characterized by a difference in diffusion MRI (DTI metrics).
+
+We expected to see:
+* Brain fibers in neonatal will mature over time and increase in anisotropic diffusion (FA value);
+* AD, RD and MD metrics will decrease with gestational age.
 
 ## Methods
 
 ### Dataset
-Data used in this project is 15 dHCP baby dMRI data. It can be [download here](http://www.developingconnectome.org/data-release/second-data-release/). Generally, these babies' averaged age is $39\pm0.5$ weeks. Baby list and information can be found in the folder Document and with file name [baby_list](https://github.com/zhangerjun/DTI-TK-Build-Template/blob/main/Document/baby_list.xlsx). 
+In this project, we created a cohort of diffusion MRI data, which consists of $45$ infant data from [dHCP dataset 2](http://www.developingconnectome.org/data-release/second-data-release/). The ages of them were all between $34$ weeks (GA) and $42$ weeks (GA) and $5$ infants in each week. The final infant cohort can be found in [here](./data/Baby_sublist_45.xlsx).
 
-### Some interesting experiment
+Steps:
+
+1. DTI reconstruction code writing based on DIPY;
+2. Use DrawEM to segment each brain and get brain tissue segmentation files;
+3. Extract averaged diffusion metric values in each brain in each ROIs;
+4. Plot curves showing diffusion metric changes along infant ages. 
 
 ## Results
+### DTI Reconstruction example
+![DTI Reconstruction](./images/Result_dti_reconstruction_figure.png)
+### Compare DTI Reconstructed Images of infants with different ages visually
+![DTI metric maps comparasion](./images/Compare_dti_metrics_figure.png)
+### Diffusion metric values changes along with infant gestational age
 ![Results](./images/Result_figure_1.png)
 ## Reproducibility
 ### Dependencies
@@ -40,10 +58,12 @@ All the experiments can be completed online using either Windows, Mac or Linux c
 
 
 ## Conclusion
-We successfully reached our goal: use DTITK to build diffusion template;
+We successfully used dMRI data and Python to evaluate neonatal brain tissue development; The results showed that 1) Younger babies have higher brain diffusivity compared to older babies; 2) Older babies have higher anisotropic diffusion characterized by an increase in myelination.
+
+In future, we will use large dataset to predict brain tissue development in more ROIs. Image processing steps will also be used to let the results more reliable and precise.
 
 *Acknowledgement*
 
-We extend our sincere gratitude to QBIN for their invaluable financial support for this mini-project. Furthermore, we would like to express our deep appreciation to Dawson College (particularly Dr. Hélène Nadeau and Dr. Sylvia Cox) for providing us with the opportunity to collaborate and successfully bring this project to fruition. Our heartfelt thanks also go out to TransMedTech for generously providing us with a conducive and comfortable working environment. We also would like to thank Michelle Poulin for her assitant in this summer project; Finally, we would like to thank our supervisor Dr. De Leener, and Dr. Lodygensky for their supports throughout this project.
+We extend our sincere gratitude to QBIN for their invaluable financial support for this mini-project and express our deep appreciation to Dawson College (particularly Dr. Hélène Nadeau and Dr. Sylvia Cox) for providing us with the internship and mentoring opportunity. Our heartfelt thanks also go out to TransMedTech (Michelle Poulin) for generously providing us with a conducive and comfortable working environment and support. Finally, we would like to thank our supervisor Dr. De Leener, and Dr. Lodygensky for their supports throughout this project.
 
 
