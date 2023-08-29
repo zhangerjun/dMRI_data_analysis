@@ -22,7 +22,7 @@ Data used in this project is 15 dHCP baby dMRI data. It can be [download here](h
 ### Some interesting experiment
 
 ## Results
-
+![Results](./images/Result_figure_1.png)
 ## Reproducibility
 ### Dependencies
 All the experiments can be completed online using either Windows, Mac or Linux computer.
