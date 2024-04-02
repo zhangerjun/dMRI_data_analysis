@@ -1,4 +1,4 @@
-# Mini-Project 5: Evaluation of Neonatal Brain Tissue Development Using Diffusion MRI
+# Evaluation of Neonatal Brain Tissue Development Using Diffusion MRI
 
 Main Team Members: Kylie Xu*, Sara Hernandez*, Erjun Zhang (Mentor), Benjamin De Leener, Gregory Lodygensky, Hélène Nadeau, Sylvia Cox
 
