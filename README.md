@@ -1,5 +1,7 @@
 # Evaluation of Neonatal Brain Tissue Development Using Diffusion MRI
 
+*[An Introduction to Python-based MRI Data Analysis](https://github.com/zhangerjun/Introduction_To_Python-based_Biomedical_Data_Analysis): mini-project I/VIII*
+
 Main Team Members: Kylie Xu*, Sara Hernandez*, Erjun Zhang (Mentor), Benjamin De Leener, Gregory Lodygensky, Hélène Nadeau, Sylvia Cox
 
 This mini-project was  completed by Kylie Xu and Sara Hernandez and EJ Zhang (mentor), at NeuroPoly in University Of Montreal (POLY) and Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital in summer 2023 (from June 02, 2023 to August 15, 2023). It is part of the project *An Introduction to Python-based MRI Data Analysis*. Based on this project, Kylie Xu got the best presentation award at CHU Sainte-Justine 2023 Summer Internship Conference and Sara Hernandez got the 2023 Danieile Tisserand Internship award at Dawson College. (* Contributed equally in this project).
