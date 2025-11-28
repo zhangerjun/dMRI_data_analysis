@@ -40,7 +40,7 @@ Steps:
 ## Results
 ### DTI Reconstruction Examples
 ![DTI Reconstruction](./images/Result_dti_reconstruction_figure.png)
-### Compare DTI Reconstructed Images of Infants with Different Ages
+### Compare DTI Reconstructed Images of Infants with Different Gestational Age
 ![DTI metric maps comparasion](./images/Compare_dti_metrics_figure.png)
 ### Changes in Diffusion Metrics with Increasing Gestational Age in Infants
 ![Results](./images/Result_figure_1.png)
