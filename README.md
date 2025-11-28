@@ -5,19 +5,19 @@
 
 Main Team Members: Kylie Xu*, Sara Hernandez*, Erjun Zhang (Mentor), Benjamin De Leener, Gregory Lodygensky, Hélène Nadeau, Sylvia Cox
 
-This mini-project was completed by Kylie Xu, Sara Hernandez and EJ Zhang (mentor), at NeuroPoly at the University of Montreal (Polytechnique), and the MAGIC Lab at the TransMedTech Institute at CHU Sainte-Justine in the summer of 2023 (from June 02, 2023 to August 15, 2023). It was part of the project *An Introduction to Python-based MRI Data Analysis*. Based on this project, Kylie Xu got the Best Presentation Award at the CHU Sainte-Justine 2023 Summer Internship Conference and Sara Hernandez got the 2023 Danieile Tisserand Internship award at Dawson College. (* Contributed equally in this project).
+This mini-project was completed by Kylie Xu, Sara Hernandez and EJ Zhang (mentor), at NeuroPoly at the University of Montreal (Polytechnique), and the MAGIC Lab at the TransMedTech Institute at CHU Sainte-Justine in the summer of 2023 (from June 02, 2023 to August 15, 2023). This was part of the project *An Introduction to Python-based MRI Data Analysis*. Based on this project, Kylie Xu got the Best Presentation Award at the CHU Sainte-Justine 2023 Summer Internship Conference and Sara Hernandez got the 2023 Danieile Tisserand Internship award at Dawson College. (* Contributed equally in this project).
 
 ## Introduction
-Preterm infants are at a higher risk of developing neurological conditions. Diffusion-weighted MRI (dMRI) is a type of magnetic resonance imaging based on the measurable Brownian motion of water molecules to create contrast in the MRI image. As a noninvasive imaging method, it is an useful image method to help researchers and clinicians understand brain tissue growth.
+Preterm infants are at a higher risk of developing neurological conditions. Diffusion-weighted MRI (dMRI) is a type of magnetic resonance imaging based on the measurable Brownian motion of water molecules to create contrast in the MRI images. As a noninvasive imaging method, it is a useful image method to help researchers and clinicians understand brain tissue growth.
 
-To my knowledge, few Python resources exist for beginners to access diffusivity in the brain tissues. Thus, we developed this project to use Python code to analysis brain tissue development, which could be of interest for dMRI reserachers. Students can also use it as a tutorial for exercise. 
+To my knowledge, few Python resources exist for beginners to access diffusivity in the brain tissues. Thus, we developed this project to use Python to analyze brain tissue development, which could be of interest for dMRI researchers. Students can also use it as a tutorial for exercise. 
 
 ## Goal and Hypothesis
 ### Goal
 * Learn Python coding;
 * Write DTI reconstruction code with Python;
 * Understanding the brain tissue development in infants;
-* Democratize the knowledge
+* Democratize the knowledge.
 ### Hypothesis
 Baby development can be characterized by a difference in diffusion MRI (DTI metrics).
 
@@ -32,17 +32,17 @@ In this project, we created a cohort of diffusion MRI data, which consists of $4
 
 Steps:
 
-1. DTI reconstruction code writing based on DIPY;
+1. Write DTI reconstruction code based on DIPY;
 2. Use DrawEM to segment each brain and get brain tissue segmentation files;
-3. Extract averaged diffusion metric values in each brain in each ROIs;
+3. Extract averaged diffusion metric values in each brain for each ROIs;
 4. Plot curves showing diffusion metric changes along infant ages. 
 
 ## Results
-### DTI Reconstruction examples
+### DTI Reconstruction Examples
 ![DTI Reconstruction](./images/Result_dti_reconstruction_figure.png)
-### Compare DTI Reconstructed Images of infants with different ages visually
+### Compare DTI Reconstructed Images of Infants with Different Ages
 ![DTI metric maps comparasion](./images/Compare_dti_metrics_figure.png)
-### Diffusion metric values changes along with infant gestational age
+### Changes in Diffusion Metrics with Increasing Gestational Age in Infants
 ![Results](./images/Result_figure_1.png)
 ## Reproducibility
 ### Dependencies
